@@ -1,0 +1,18 @@
+.header {
+    display:flex;
+    align-items: center;
+    /* centres the tinder icon with rest of the page */
+    justify-content: space-between;
+    /* finds the two children in header and puts space b/w them */
+    z-index: 100;
+    border-bottom: 2px solid #f9f9f9;
+}
+
+.header__logo {
+    object-fit: contain;
+    height: 70px;
+}
+
+.header__icon {
+    padding: 10px;
+}
