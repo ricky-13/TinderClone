@@ -9,14 +9,16 @@ function Header() {
     <div className = 'header'>
         <IconButton>
             <PersonIcon fontSize = 'large' className = 'header__icon' />
+            {/* installed material ui package and getting specific icons from it */}
         </IconButton>
+        {/* icon button to make the person icon clickable */}
 
         <img className='header__logo' src = "https://static.vecteezy.com/system/resources/previews/021/460/424/original/tinder-logo-transparent-free-png.png" alt='nai hora' />
 
         <IconButton>
             <ForumIcon fontSize='large' className='header__icon' />
         </IconButton>
-        {/* sdfsfsdfdsfsf */}
+        {/* icon button to make it clickable */}
         
     </div>
   )
