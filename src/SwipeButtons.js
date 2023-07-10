@@ -10,9 +10,9 @@ import FlashOnIcon from '@mui/icons-material/FlashOn';
 function SwipeButtons() {
   return (
     <div className='swipeButtons'>
-
+        
     </div>
   )
 }
 
-export default SwipeButtons
+export default SwipeButtons;
